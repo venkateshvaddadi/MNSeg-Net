@@ -104,7 +104,143 @@ def binary_entropy(prediction_map):
     
     return entropy_value
 #%%
+import pytorch_ssim
+import pytorch_iou
+from loss.contour_loss import ContourLoss
 
+# ------- 1. define loss function --------
+
+bce_loss = nn.BCELoss(size_average=True)
+ssim_loss = pytorch_ssim.SSIM(window_size=11,size_average=True)
+iou_loss = pytorch_iou.IOU(size_average=True)
+
+def bce_ssim_loss(pred,target):
+
+	bce_out = bce_loss(pred,target)
+	ssim_out = 1 - ssim_loss(pred,target)
+
+# 	iou_out = iou_loss(pred,target)
+# 	loss = bce_out + ssim_out + iou_out
+
+	iou_out = iou_loss(pred,target)
+	log_cosh_dice_loss_value=torch.log((torch.exp(iou_out)+torch.exp(-iou_out))/2)
+	loss = bce_out + ssim_out + iou_out
+# 	loss = iou_out
+
+
+	return loss
+
+
+
+
+
+def muti_bce_loss_fusion_7(d0, d1, d2, d3, d4, d5, d6,d7,  labels_v):
+
+	loss0 = bce_ssim_loss(d0,labels_v)
+	loss1 = bce_ssim_loss(d1,labels_v)
+	loss2 = bce_ssim_loss(d2,labels_v)
+	loss3 = bce_ssim_loss(d3,labels_v)
+	loss4 = bce_ssim_loss(d4,labels_v)
+	loss5 = bce_ssim_loss(d5,labels_v)
+	loss6 = bce_ssim_loss(d6,labels_v)
+	loss7 = bce_ssim_loss(d7,labels_v)
+	#ssim0 = 1 - ssim_loss(d0,labels_v)
+
+	# iou0 = iou_loss(d0,labels_v)
+	#loss = torch.pow(torch.mean(torch.abs(labels_v-d0)),2)*(5.0*loss0 + loss1 + loss2 + loss3 + loss4 + loss5) #+ 5.0*lossa
+	loss = loss0 + loss1 + loss2 + loss3 + loss4 + loss5 + loss6 + loss7#+ 5.0*lossa
+	return loss
+
+
+def muti_bce_loss_fusion_8(d0, d1, d2, d3, d4, d5, d6,d7,d8,  labels_v):
+
+	loss0 = bce_ssim_loss(d0,labels_v)
+	loss1 = bce_ssim_loss(d1,labels_v)
+	loss2 = bce_ssim_loss(d2,labels_v)
+	loss3 = bce_ssim_loss(d3,labels_v)
+	loss4 = bce_ssim_loss(d4,labels_v)
+	loss5 = bce_ssim_loss(d5,labels_v)
+	loss6 = bce_ssim_loss(d6,labels_v)
+	loss7 = bce_ssim_loss(d7,labels_v)
+	loss8 = bce_ssim_loss(d8,labels_v)
+
+	#ssim0 = 1 - ssim_loss(d0,labels_v)
+
+	# iou0 = iou_loss(d0,labels_v)
+	#loss = torch.pow(torch.mean(torch.abs(labels_v-d0)),2)*(5.0*loss0 + loss1 + loss2 + loss3 + loss4 + loss5) #+ 5.0*lossa
+	loss = loss0 + loss1 + loss2 + loss3 + loss4 + loss5 + loss6 + loss7+loss8#+ 5.0*lossa
+	return loss
+
+
+
+def muti_bce_loss_fusion(d0, d1,  labels_v):
+
+	loss0 = bce_ssim_loss(d0,labels_v)
+	loss1 = bce_ssim_loss(d1,labels_v)
+
+	loss = loss0 + loss1
+	return loss
+
+def muti_bce_loss_fusion_6(d0, d1, d2, d3, d4, d5, d6,  labels_v):
+
+	loss0 = bce_ssim_loss(d0,labels_v)
+	loss1 = bce_ssim_loss(d1,labels_v)
+	loss2 = bce_ssim_loss(d2,labels_v)
+	loss3 = bce_ssim_loss(d3,labels_v)
+	loss4 = bce_ssim_loss(d4,labels_v)
+	loss5 = bce_ssim_loss(d5,labels_v)
+	loss6 = bce_ssim_loss(d6,labels_v)
+# 	loss7 = bce_ssim_loss(d7,labels_v)
+	#ssim0 = 1 - ssim_loss(d0,labels_v)
+
+	# iou0 = iou_loss(d0,labels_v)
+	#loss = torch.pow(torch.mean(torch.abs(labels_v-d0)),2)*(5.0*loss0 + loss1 + loss2 + loss3 + loss4 + loss5) #+ 5.0*lossa
+	loss = loss0 + loss1 + loss2 + loss3 + loss4 + loss5 + loss6 #+ loss7#+ 5.0*lossa
+	return loss
+#%%
+
+from loss.contour_loss import ContourLoss
+
+contour_loss_calculator = ContourLoss()
+
+def bce_ssim_contour_loss(pred,target):
+
+	lambda_val=0.1
+	bce_out = bce_loss(pred,target)
+	ssim_out = 1 - ssim_loss(pred,target)
+	iou_out = iou_loss(pred,target)
+	contour_loss_out=contour_loss_calculator(pred,target);
+	log_cosh_dice_loss_value=torch.log((torch.exp(iou_out)+torch.exp(-iou_out))/2)
+	loss = bce_out + ssim_out + iou_out+lambda_val*contour_loss_out
+
+
+	return loss
+
+
+def muti_bce_loss_with_contour_loss_fusion_7(d0, d1, d2, d3, d4, d5, d6,d7,  labels_v):
+
+	loss0 = bce_ssim_contour_loss(d0,labels_v)
+	loss1 = bce_ssim_contour_loss(d1,labels_v)
+	loss2 = bce_ssim_contour_loss(d2,labels_v)
+	loss3 = bce_ssim_contour_loss(d3,labels_v)
+	loss4 = bce_ssim_contour_loss(d4,labels_v)
+	loss5 = bce_ssim_contour_loss(d5,labels_v)
+	loss6 = bce_ssim_contour_loss(d6,labels_v)
+	loss7 = bce_ssim_contour_loss(d7,labels_v)
+	#ssim0 = 1 - ssim_loss(d0,labels_v)
+
+	# iou0 = iou_loss(d0,labels_v)
+	#loss = torch.pow(torch.mean(torch.abs(labels_v-d0)),2)*(5.0*loss0 + loss1 + loss2 + loss3 + loss4 + loss5) #+ 5.0*lossa
+	loss = loss0 + loss1 + loss2 + loss3 + loss4 + loss5 + loss6+ loss7#+ 5.0*lossa
+	return loss
+
+
+
+
+
+
+
+#%%
 def calculate_exp_of_margin(probability_map):
     
     class_0_prob_map=probability_map
