@@ -12,3 +12,13 @@ The CNN architecture of the proposed \textbf{MN-Net}, known as the Median Nerve 
 The proposed model was deployed and made available as an End-to-End deep learning based software tool for Real-time checking in the clinical environment. It provides a parallel screen to the original US screen, which can show the US frame with a segmented MedianNerve along with its CSA.
 <center><img src="images/Real_time_setup.png" alt="spinet-QSM architecture" width=80% height=80%></center>
 
+<h2>How to run the code</h2>
+
+First, ensure that PyTorch 1.10 or higher version is installed and working with GPU. Second, just clone or download this reporsitory. The SpiNet_QSM_demo_run.py file should run without any changes in the code. 
+
+We can run from the command prompt: **`python SpiNet_QSM_demo_run.py`**.
+We can check the quality of the Spinet-QSM output by running the **`metrics_evaluation.m`**. It calculates the **`SSIM, pSNR, RMSE, HFEN`**.
+<h2>Dependencies</h2>
+How to run the code
+<li> Python  </li>  
+<li> PyTorch 1.10 </li>
