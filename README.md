@@ -19,9 +19,10 @@ First, ensure that PyTorch 1.10 or higher version is installed and working with 
 We can run from the command prompt: **`python testing.py`**.
 <h2>Dependencies</h2>
 How to run the code
-<>
+<ul>
 <li> Python  </li>  
 <li> PyTorch 1.10 </li>
+</ul>
 
 # Files description
 
