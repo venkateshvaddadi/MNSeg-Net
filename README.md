@@ -24,10 +24,13 @@ How to run the code
 <li> PyTorch 1.10 </li>
 
 # Files description
-**`savedModels:`** This directory contain's the learned PyTorch 1.10 model parameters. 
 
-**`testing.py:`** It to read the model and run on the given demo input data from Data folder.
+**`CTS_dataset.py:`** This is the dataloader file for loading the data for training and testing the model.
+
+**`testing.py:`** It can load the model and check on test data.
 
 **`utils.py:`** This file contains the code for many supporting functions for the previous Python code files.
+
+**`savedModels:`** This directory contains the learned PyTorch 1.10 model parameters. 
 
 <h2>Contact</h2>
