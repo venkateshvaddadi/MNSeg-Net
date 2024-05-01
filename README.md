@@ -28,7 +28,7 @@ How to run the code
 
 **`CTS_dataset.py:`** This is the dataloader file for loading the data for training and testing the model.
 
-**`testing.py:`** It can load the model and check on test data.
+**`testing.py:`** This file contains the code for testing.
 
 **`utils.py:`** This file contains the code for many supporting functions for the previous Python code files.
 
