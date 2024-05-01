@@ -37,12 +37,11 @@ import numpy as np
 import torch.optim as optim
 import time
 import tqdm
-
+import os
 from PIL import Image
 import cv2
 
-
-from CTS_dataset import mydataloader
+#%%
 #%%
 
 from loss.diceloss import *
@@ -113,7 +112,8 @@ torch.save(model.state_dict(), 'model.pth')
 diceloss=DiceLoss()
 
 #%%
-
+# data loader for the loading the dataset
+from CTS_dataset import mydataloader
 
 # LOADING THE TEST DATA.
 
@@ -134,7 +134,7 @@ print('no_test_batches',no_test_batches)
 #%%
 # saving the output files.
 from datetime import datetime
-
+import os
 #making directory for sving the results
 print ('*******************************************************')
 directory=PATH_for_experiment+'/results_'+str(epoch_no)+"/"
@@ -243,7 +243,6 @@ print('testing is completed.')
 
 # print('dice match:',1-testing_loss/no_test_batches)
 #%%
-
 try:
     csv_results_path='csv_results/'
     os.makedirs(csv_results_path)
