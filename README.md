@@ -14,10 +14,9 @@ The proposed model was deployed and made available as an End-to-End deep learnin
 
 <h2>How to run the code</h2>
 
-First, ensure that PyTorch 1.10 or higher version is installed and working with GPU. Second, just clone or download this reporsitory. The SpiNet_QSM_demo_run.py file should run without any changes in the code. 
+First, ensure that PyTorch 1.10 or higher version is installed and working with GPU. Second, just clone or download this reporsitory. The testing.py file should run without any changes in the code. 
 
-We can run from the command prompt: **`python SpiNet_QSM_demo_run.py`**.
-We can check the quality of the Spinet-QSM output by running the **`metrics_evaluation.m`**. It calculates the **`SSIM, pSNR, RMSE, HFEN`**.
+We can run from the command prompt: **`python testing.py`**.
 <h2>Dependencies</h2>
 How to run the code
 <li> Python  </li>  
