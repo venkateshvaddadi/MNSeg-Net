@@ -31,6 +31,8 @@ How to run the code
 
 **`utils.py:`** This file contains the code for many supporting functions for the previous Python code files.
 
+**`loss:`** This file contains the python code for the various loss functions .
+
 **`savedModels:`** This directory contains the learned PyTorch 1.10 model parameters. 
 
 <h2>Contact</h2>
