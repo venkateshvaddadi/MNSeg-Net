@@ -6,7 +6,7 @@
 <li> The task of nerve localization in ultrasound imaging is challenging due to the presence of noise and other artifacts. It requires an extensive training and years of experience. Additionally, for the anesthetist, simultaneously maintaining both the needle and the nerve region in the ultrasound plane is difficult.</li>
 </ul>
 <h2>MN-Net Architecture</h2>
-The CNN architecture of the proposed \textbf{MN-Net}, known as the Median Nerve Segmentation Network, is introduced. MN-Net is an efficient, lightweight network architecture; in this, there is a primary network comprising a UNet-based encoder-decoder structure, referred to as the main network. Alongside this main network, a subnetwork is integrated within it, learning concurrently with the main network and serving as the refinement network module.
+The CNN architecture of the proposed **MN-Net**, known as the Median Nerve Segmentation Network, is introduced. MN-Net is an efficient, lightweight network architecture; in this, there is a primary network comprising a UNet-based encoder-decoder structure, referred to as the main network. Alongside this main network, a subnetwork is integrated within it, learning concurrently with the main network and serving as the refinement network module.
 <center><img src="images/Architecture_updated_8.png" alt="spinet-QSM architecture" width=80% height=80%></center>
 <h2>Clinical setup for Real-Time Median Nerve Segmentation</h2>
 The proposed model was deployed and made available as an End-to-End deep learning based software tool for Real-time checking in the clinical environment. It provides a parallel screen to the original US screen, which can show the US frame with a segmented MedianNerve along with its CSA.
