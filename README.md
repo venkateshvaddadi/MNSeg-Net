@@ -23,6 +23,13 @@ How to run the code
 <li> Python  </li>  
 <li> PyTorch 1.10 </li>
 </ul>
+<h2>Clinical Demo</h2>
+<video width="640" height="360" controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 
 # Files description
 
