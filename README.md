@@ -12,6 +12,14 @@ The CNN architecture of the proposed MNSeg-Net, known as the Median Nerve Segmen
 The proposed model was deployed and made available as an End-to-End deep learning based software tool for Real-time checking in the clinical environment. It provides a parallel screen to the original US screen, which can show the US frame with a segmented MedianNerve along with its CSA.
 <center><img src="images/Real_time_setup.png" alt="spinet-QSM architecture" width=80% height=80%></center>
 
+<h2>Clinical Demo</h2>
+<video width="640" height="360" controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
 <h2>How to run the code</h2>
 
 First, ensure that PyTorch 1.10 or higher version is installed and working with GPU. Second, just clone or download this reporsitory. The testing.py file should run without any changes in the code. 
@@ -23,11 +31,6 @@ How to run the code
 <li> Python  </li>  
 <li> PyTorch 1.10 </li>
 </ul>
-<h2>Clinical Demo</h2>
-<video width="640" height="360" controls>
-  <source src="video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 
 
