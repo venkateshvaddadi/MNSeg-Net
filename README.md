@@ -15,7 +15,10 @@ The proposed model was deployed and made available as an End-to-End deep learnin
 <h2>Clinical Demo</h2>
 [![Video Label](images/Real_time_setup.png)]([https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=TQegSF4ZiIQ))
 
-
+<video width="640" height="360" controls>
+        <source src="example.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+  </video>
 
 <h2>How to run the code</h2>
 
