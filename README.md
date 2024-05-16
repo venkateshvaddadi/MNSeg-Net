@@ -13,10 +13,7 @@ The proposed model was deployed and made available as an End-to-End deep learnin
 <center><img src="images/Real_time_setup.png" alt="spinet-QSM architecture" width=80% height=80%></center>
 
 <h2>Clinical Demo</h2>
-<video width="640" height="360" controls>
-  <source src="video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Video Label](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
 
 
 
