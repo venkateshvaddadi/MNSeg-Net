@@ -569,8 +569,8 @@ input_data=input_data.cuda()
 
 model = MN_Net_proposed(in_ch=3,
                         out_ch=1,
-                        no_channels_dealing_in_and_out=128,
-                        no_channels_dealing_in_the_middle=16)
+                        no_channels_dealing_in_and_out=64,
+                        no_channels_dealing_in_the_middle=32)
 model=model.float()
 model=model.cuda()
 
