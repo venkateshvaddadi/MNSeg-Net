@@ -10,7 +10,7 @@ The CNN architecture of the proposed MNSeg-Net, known as the Median Nerve Segmen
 <center><img src="images/Architecture_updated_8.png" alt="spinet-QSM architecture" width=100% height=100%></center>
 <h2>Clinical setup for Real-Time Median Nerve Segmentation</h2>
 The proposed MNSeg-Net was deployed and made available as an End-to-End deep learning based software tool for Real-time checking in the clinical environment. It provides a parallel screen to the original US screen, which can show the US frame with a segmented MedianNerve along with its CSA.
-<center><img src="images/Real_time_setup.png" alt="spinet-QSM architecture" width=80% height=80%></center>
+<center><img src="images/Real_time_setup.png" alt="spinet-QSM architecture" width=90% height=90%></center>
 
 <h2>Clinical Demo</h2>
 
