@@ -13,9 +13,11 @@ The proposed MNSeg-Net was deployed and made available as an End-to-End deep lea
 <center><img src="images/Real_time_setup.png" alt="spinet-QSM architecture" width=80% height=80%></center>
 
 <h2>Clinical Demo</h2>
-https://drive.google.com/file/d/1Rh21EY4dzHCAJtpvVj-OqgsAGnHDZDee/view?usp=sharing
 
 <center><img src="images/clinical_setup_video.gif" alt="spinet-QSM architecture" width=100% height=100%></center>
+
+For the full video:
+https://drive.google.com/file/d/1Rh21EY4dzHCAJtpvVj-OqgsAGnHDZDee/view?usp=sharing
 
 <h2>How to run the code</h2>
 
