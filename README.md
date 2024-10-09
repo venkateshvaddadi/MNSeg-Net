@@ -49,3 +49,11 @@ How to run the code
 **`savedModels:`** This directory contains the learned PyTorch 1.10 model parameters. 
 
 <h2>Contact</h2>
+Dr. Phaneendra K. Yalavarthy
+
+Assoc.Prof, CDS, IISc Bangalore, email : yalavarthy@iisc.ac.in
+
+Vaddadi Venkatesh
+
+(PhD) CDS, MIG, IISc Bangalore, email : venkateshvad@iisc.ac.in
+
