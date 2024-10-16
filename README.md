@@ -43,7 +43,7 @@ How to run the code
 
 **`loss:`** This directory contains the python coding files for the various loss functions.
 
-**`models:`** This directory contains the Python coding files for the various CNN models for the segmentation like UNet, SegNet,ResUNet, UNet++, Attention-UNet, BASNet, U2Net and **Proposed MN-Net**.
+**`models:`** This directory contains the Python coding files for the various CNN models for the segmentation like UNet, SegNet,ResUNet, UNet++, Attention-UNet, BASNet, U2Net and **Proposed MN-SegNet**.
 
 
 **`savedModels:`** This directory contains the learned PyTorch 1.10 model parameters. 
@@ -51,7 +51,7 @@ How to run the code
 <h2>Contact</h2>
 Dr. Phaneendra K. Yalavarthy
 
-Assoc.Prof, CDS, IISc Bangalore, email : yalavarthy@iisc.ac.in
+Prof, CDS, IISc Bangalore, email : yalavarthy@iisc.ac.in
 
 Vaddadi Venkatesh
 
