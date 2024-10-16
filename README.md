@@ -43,7 +43,7 @@ How to run the code
 
 **`loss:`** This directory contains the python coding files for the various loss functions.
 
-**`models:`** This directory contains the Python coding files for the various CNN models for the segmentation like UNet, SegNet,ResUNet, UNet++, Attention-UNet, BASNet, U2Net and **Proposed MN-SegNet**.
+**`models:`** This directory contains the Python coding files for the various CNN models for the segmentation like UNet, SegNet,ResUNet, UNet++, Attention-UNet, BASNet, U2Net and **Proposed MNSeg-Net**.
 
 
 **`savedModels:`** This directory contains the learned PyTorch 1.10 model parameters. 
