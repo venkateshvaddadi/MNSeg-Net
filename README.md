@@ -10,6 +10,12 @@ The CNN architecture of the proposed MNSeg-Net, known as the Median Nerve Segmen
 <center><img src="images/MNSeg_Net_architecture_updaed_version_1.jpg" alt="spinet-QSM architecture" width=80% height=80%></center>
 
 <h2>Residual UNet Block Variants Used in MNSeg-Net</h2>
+\caption{Detailed UNet block configurations used in MNSeg-Net. 
+The blocks vary in depth depending on the stage of the encoder–decoder: (a) E1, D1, and MSFF-UNet employ the deepest structure; 
+(b) E2/D2 and (c) E3/D3 progressively reduce depth; 
+(d) E4/D4 adopt a shallow configuration; and 
+(e) E5, D5, and E6 rely on dilated convolutions (dilation factors 2, 4, 8) to enlarge the receptive field without pooling or upsampling. 
+This staged design balances representational power with computational efficiency.}
 <center><img src="images/SFigure1.PNG" alt="spinet-QSM architecture" width=80% height=80%></center>
 
 
