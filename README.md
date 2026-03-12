@@ -43,6 +43,10 @@ The MN-SegNet Android application performs **real-time median nerve segmentation
 4. Click **Run AI Model** to start the inference.
 5. The model generates a **segmentation mask overlay** highlighting the median nerve.
 
+<p align="center">
+  <img src="images/SFigure1.PNG" width="70%">
+</p>
+
 ### Console Output
 
 During inference, the application displays the following information:
