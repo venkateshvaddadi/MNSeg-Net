@@ -59,6 +59,7 @@ During inference, the application displays the following information:
 ### Processing Pipeline
 
 The complete inference pipeline of the mobile application is:
+Mobile App → Load Image → Load AI Model → Run Inference → Segmentation Overlay
 
 
 
