@@ -35,7 +35,7 @@ https://drive.google.com/file/d/1Rh21EY4dzHCAJtpvVj-OqgsAGnHDZDee/view?usp=shari
 
 This repository also demonstrates the deployment of **MN-SegNet on Android devices**, enabling **AI-assisted ultrasound analysis directly on smartphones**. The mobile application integrates the trained deep learning model to perform **real-time median nerve segmentation** directly on-device.
 
-<center><img src="images/clinical_setup_video.gif" alt="spinet-QSM architecture" width=100% height=100%></center>
+<center><img src="images/clinical_demo_on_mobile.gif" alt="spinet-QSM architecture" width=100% height=100%></center>
 
 
 ### Features
