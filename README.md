@@ -31,19 +31,31 @@ The proposed MNSeg-Net was deployed and made available as an End-to-End deep lea
 For the full video:
 https://drive.google.com/file/d/1Rh21EY4dzHCAJtpvVj-OqgsAGnHDZDee/view?usp=sharing
 
-## Mobile Deployment
+## Mobile App Workflow
 
-This repository also demonstrates the deployment of **MN-SegNet on Android devices**, enabling **AI-assisted ultrasound analysis directly on smartphones**. The mobile application integrates the trained deep learning model to perform **real-time median nerve segmentation** directly on-device.
+The MN-SegNet Android application performs **real-time median nerve segmentation** on ultrasound images directly on a smartphone.
 
-<p align="center">
-  <img src="images/clinical_demo_on_mobile.gif" width="30%">
-</p>
-### Features
+### Application Workflow
 
-- 📱 **Android-based Automatic median nerve segmentation using MN-SegNet**
-- ⚡ **Inference on Samsung Galaxy S24 FE**
-- 💾 **Option to save predicted segmentation masks to device storage**
-- ⏱️ **Fast inference (~1 s per image)**
+1. Open the **MN-SegNet AI Segmentation** mobile application.
+2. Load an **ultrasound image** from the device gallery.
+3. Load the trained **MN-SegNet AI model**.
+4. Click **Run AI Model** to start the inference.
+5. The model generates a **segmentation mask overlay** highlighting the median nerve.
+
+### Console Output
+
+During inference, the application displays the following information:
+
+- Forward pass success
+- Output tensor shape: **1 × 1 × 448 × 320**
+- Segmentation mask saved to gallery
+- Inference time (~100 ms)
+
+### Processing Pipeline
+
+The complete inference pipeline of the mobile application is:
+
 
 
 <h2>How to run the code</h2>
