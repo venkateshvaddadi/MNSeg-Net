@@ -33,16 +33,14 @@ https://drive.google.com/file/d/1Rh21EY4dzHCAJtpvVj-OqgsAGnHDZDee/view?usp=shari
 
 ## Mobile Deployment
 
-This repository also demonstrates the deployment of **MN-SegNet on Android devices**, enabling **AI-assisted ultrasound analysis directly on smartphones**. The mobile application integrates the trained deep learning model to perform **real-time median nerve segmentation** directly on-device without requiring cloud processing.
+This repository also demonstrates the deployment of **MN-SegNet on Android devices**, enabling **AI-assisted ultrasound analysis directly on smartphones**. The mobile application integrates the trained deep learning model to perform **real-time median nerve segmentation** directly on-device.
 
 ### Features
 
-- 📱 **Android-based AI segmentation application**
-- 🧠 **Automatic median nerve segmentation using MN-SegNet**
-- ⚡ **Real-time inference on Samsung Galaxy S24**
-- 🖼️ **Segmentation mask overlay visualization**
+- 📱 **Android-based Automatic median nerve segmentation using MN-SegNet**
+- ⚡ **Inference on Samsung Galaxy S24**
 - 💾 **Option to save predicted segmentation masks to device storage**
-- ⏱️ **Fast inference (~100 ms per image)**
+- ⏱️ **Fast inference (~1 s per image)**
 
 
 <h2>How to run the code</h2>
