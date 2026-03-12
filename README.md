@@ -65,7 +65,7 @@ Mobile App → Load Image → Load AI Model → Run Inference → Segmentation O
 
 <td width="40%" align="center">
 
-<img src="images/clinical_demo_on_mobile.gif" width="90%">
+<img src="images/clinical_demo_on_mobile.gif" width="70%">
 
 </td>
 </tr>
