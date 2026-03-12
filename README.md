@@ -35,7 +35,7 @@ https://drive.google.com/file/d/1Rh21EY4dzHCAJtpvVj-OqgsAGnHDZDee/view?usp=shari
 
 ## Mobile App Workflow
 
-<table>
+<table  border="0" >
 <tr>
 <td width="60%">
 
