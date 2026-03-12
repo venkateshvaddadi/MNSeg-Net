@@ -39,13 +39,13 @@ https://drive.google.com/file/d/1Rh21EY4dzHCAJtpvVj-OqgsAGnHDZDee/view?usp=shari
 <tr>
 <td width="60%">
 
-The **MN-SegNet Android application** performs **median nerve segmentation** on ultrasound images directly on a smartphone.
+The **MNSeg-Net Android application** performs **median nerve segmentation** on ultrasound images directly on a smartphone.
 
 ### Application Workflow
 
-1. Open the **MN-SegNet AI Segmentation** mobile application.  
+1. Open the **MNSeg-Net AI Segmentation** mobile application.  
 2. Load an **ultrasound image** from the device gallery.  
-3. Load the trained **MN-SegNet AI model**.  
+3. Load the trained **MNSeg-Net AI model**.  
 4. Click **Run AI Model** to start the inference.  
 5. The model generates a **segmentation mask overlay** highlighting the median nerve.
 
