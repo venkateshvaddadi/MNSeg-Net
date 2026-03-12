@@ -33,7 +33,7 @@ https://drive.google.com/file/d/1Rh21EY4dzHCAJtpvVj-OqgsAGnHDZDee/view?usp=shari
 
 ## Mobile App Workflow
 
-The MN-SegNet Android application performs **real-time median nerve segmentation** on ultrasound images directly on a smartphone.
+The MN-SegNet Android application performs **median nerve segmentation** on ultrasound images directly on a smartphone.
 
 ### Application Workflow
 
