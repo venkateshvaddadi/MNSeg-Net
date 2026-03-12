@@ -50,7 +50,7 @@ During inference, the application displays the following information:
 - Forward pass success
 - Output tensor shape: **1 × 1 × 448 × 320**
 - Segmentation mask saved to gallery
-- Inference time (~100 ms)
+- Inference time
 
 ### Processing Pipeline
 
