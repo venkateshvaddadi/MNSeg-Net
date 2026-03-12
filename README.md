@@ -31,6 +31,20 @@ The proposed MNSeg-Net was deployed and made available as an End-to-End deep lea
 For the full video:
 https://drive.google.com/file/d/1Rh21EY4dzHCAJtpvVj-OqgsAGnHDZDee/view?usp=sharing
 
+## Mobile Deployment
+
+This repository also demonstrates the deployment of **MN-SegNet on Android devices**, enabling **AI-assisted ultrasound analysis directly on smartphones**. The mobile application integrates the trained deep learning model to perform **real-time median nerve segmentation** directly on-device without requiring cloud processing.
+
+### Features
+
+- 📱 **Android-based AI segmentation application**
+- 🧠 **Automatic median nerve segmentation using MN-SegNet**
+- ⚡ **Real-time inference on Samsung Galaxy S24**
+- 🖼️ **Segmentation mask overlay visualization**
+- 💾 **Option to save predicted segmentation masks to device storage**
+- ⏱️ **Fast inference (~100 ms per image)**
+
+
 <h2>How to run the code</h2>
 
 First, ensure that PyTorch 1.10 or higher version is installed and working with GPU. Second, just clone or download this reporsitory. The testing.py file should run without any changes in the code. 
