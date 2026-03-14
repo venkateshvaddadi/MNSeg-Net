@@ -73,7 +73,7 @@ Mobile App → Load Image → Load AI Model → Run Inference → Segmentation O
 
 ## Demo
 
-[Download Demo Video](videos/demo.mp4)
+[Download Demo Video](images/Screen_Recording_20260313_232043_MNSegNet_Updated.mp4)
 
 <h2>How to run the code</h2>
 
