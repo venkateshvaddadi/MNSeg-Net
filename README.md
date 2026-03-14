@@ -71,7 +71,9 @@ Mobile App → Load Image → Load AI Model → Run Inference → Segmentation O
 </tr>
 </table>
 
+## Demo
 
+[Download Demo Video](videos/demo.mp4)
 
 <h2>How to run the code</h2>
 
