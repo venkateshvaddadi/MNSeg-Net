@@ -62,8 +62,7 @@ During inference, the application displays:
 - Inference time  
 
 ### Processing Pipeline
-Mobile App → Load Image → Load AI Model → Run Inference → Segmentation Overlay
-
+Mobile Application → Load Ultrasound Image → Load MNSegNet Lite Model → Run On-Device Inference → Generate Segmentation Mask → Overlay on Image
 </td>
 
 <td width="40%" align="center">
