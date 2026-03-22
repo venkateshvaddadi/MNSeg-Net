@@ -4,8 +4,8 @@
 Venkatesh Vadaddi, Lokesh Bathala, Raji S. Mathew, and Phaneendra K. Yalavarthy. 
 "Performance Benchmarking of Deep Learning Models for Real-Time Median Nerve Segmentation and Cross-Sectional Area Measurement in Ultrasound Imaging." 
 Medical Physics (2026, in press). 
-<a href="https://doi.org/10.1002/mp.70414">[manuscript]</a> 
-[Supplementary Material]
+<a href="https://cds.iisc.ac.in/faculty/yalavarthy/Vaddadi_MedPhys_2026.pdf">[manuscript]</a> 
+<a href="https://cds.iisc.ac.in/faculty/yalavarthy/Vadaddi_Medphys_2026_Suppl.pdf">[Supplementary Material]</a> 
 
 <h2>Introduction</h2>
 <ul>
