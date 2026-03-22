@@ -6,7 +6,7 @@ Venkatesh Vadaddi, Lokesh Bathala, Raji S. Mathew, and Phaneendra K. Yalavarthy.
 Medical Physics (2026, in press). 
 <a href="https://cds.iisc.ac.in/faculty/yalavarthy/Vaddadi_MedPhys_2026.pdf">[manuscript]</a> 
 <a href="https://cds.iisc.ac.in/faculty/yalavarthy/Vadaddi_Medphys_2026_Suppl.pdf">[Supplementary Material]</a> ; 
-<a href="https://cds.iisc.ac.in/faculty/yalavarthy/Vaddadi_MedPhys_2026.pdf">[doi: 10.1002/mp.70414]</a> 
+<a href="doi: 10.1002/mp.70414">[doi: 10.1002/mp.70414]</a> 
 
 
 
