@@ -1,4 +1,12 @@
 <h1>MNSeg-Net for Real-Time Median Nerve Segmentation in Ultrasonography</h1>
+<ul>
+
+Venkatesh Vadaddi, Lokesh Bathala, Raji S. Mathew, and Phaneendra K. Yalavarthy. 
+"Performance Benchmarking of Deep Learning Models for Real-Time Median Nerve Segmentation and Cross-Sectional Area Measurement in Ultrasound Imaging." 
+Medical Physics (2026, in press). 
+<a href="https://doi.org/10.1002/mp.70414">[manuscript]</a> 
+[Supplementary Material]
+
 <h2>Introduction</h2>
 <ul>
 <li> The median nerve is a major peripheral nerve that serves as a critical communication pathway between the hand and the central nervous system. Median nerve passes through a narrow passage called carpal tunnel. Injury and swelling of tissues within the tunnel leads to pressing of the median nerve. Carpal Tunnel Syndrome (CTS) is the most common peripheral neuropathy, which affects the thumb, index finger, middle finger, and lateral side of the ring finger. Typically, this arises due to increased pressure within the enclosed carpal tunnel that compresses the median nerve and is characterized by tingling and numbness of the affected hand. The diagnosis of CTS is often made based on a combination of clinical symptoms.</li>
